@@ -31,6 +31,6 @@ public class Swing : MonoBehaviour
 
     private void Move()
     {
-        _connectedBody.AddForce(transform.right * _force);
+        _connectedBody.AddForce(_connectedBody.transform.right * _force);
     }
 }
