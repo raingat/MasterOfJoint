@@ -1085,7 +1085,7 @@ HingeJoint:
     targetVelocity: 0
     force: 0
     freeSpin: 0
-  m_UseLimits: 0
+  m_UseLimits: 1
   m_ExtendedLimits: 0
   m_UseAcceleration: 0
   m_Limits:
@@ -1139,10 +1139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65d4e7431776e9c4abbeebde846c7066, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _maxAngle: 70
-  _minAngle: -90
-  _stepFactor: 5
-  _defaultStep: 100
+  _force: 30
 --- !u!1 &1784969618
 GameObject:
   m_ObjectHideFlags: 0
